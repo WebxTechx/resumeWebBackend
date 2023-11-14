@@ -1,0 +1,236 @@
+{
+    "id": 5613790,
+    "general": {
+        "city": "Jabalpur",
+        "icon": "single-neutral-actions",
+        "name": "Personal Information",
+        "note": null,
+        "postal": "482001",
+        "street": "Damohnaka",
+        "country": "India",
+        "birthKey": "Date of birth",
+        "emailKey": "Email address",
+        "phoneKey": "Phone number",
+        "backTitle": "",
+        "birthDate": "2001-09-05",
+        "addressKey": "Address",
+        "emailValue": "tarungupta1405@gmail.com",
+        "frontTitle": "",
+        "phoneValue": "8120239387",
+        "websiteKey": "LinkedIn",
+        "avatarShown": false,
+        "description": "<p>Highly skilled Frontend Developer with over 3 years of experience specializing in Angular and React/React Native. Proficient in developing scalable and responsive web and mobile applications. Possesses a strong understanding of front-end technologies and frameworks, including HTML, CSS, JavaScript, TypeScript, Angular, React, and React Native. Demonstrates a solid grasp of UI/UX principles and the ability to create intuitive user interfaces. Proven track record of delivering high-quality code on time and within budget. Excellent problem-solving skills and a keen eye for detail. Committed to staying updated with the latest industry trends and continuously improving technical skills. A team player with effective communication and collaboration abilities.</p>",
+        "lastNameKey": "Last name",
+        "nationality": "Indian",
+        "firstNameKey": "First name",
+        "websiteValue": "https://www.linkedin.com/in/tarun-gupta-345748227/",
+        "lastNameValue": "Gupta",
+        "descriptionKey": "Profile",
+        "firstNameValue": "Tarun",
+        "nationalityKey": "Nationality",
+        "customFieldOneKey": "Custom field",
+        "customFieldTwoKey": "Custom field",
+        "customFieldOneValue": "",
+        "customFieldTwoValue": ""
+    },
+    "isCover": false,
+    "isResume": true,
+    "sections": [
+        {
+            "data": {
+                "type": "work",
+                "entries": [
+                    {
+                        "city": "Gurgaon ",
+                        "note": null,
+                        "uuid": "35b85e4a-3f5c-4d96-a879-dececd85c94b",
+                        "degree": "",
+                        "company": "Ernst and Young",
+                        "country": "India",
+                        "current": false,
+                        "endDate": [
+                            "",
+                            ""
+                        ],
+                        "jobTitle": "Frontend Developer / Analyst",
+                        "startDate": [
+                            "01",
+                            "2023"
+                        ],
+                        "description": "<p>&nbsp;&nbsp;&nbsp;</p><ul><li>﻿As a Frontend Developer at Ernst and Young, I am part of a dynamic team responsible for delivering cutting-edge solutions for our esteemed client, TATAAIG. I specialize in leveraging a wide range of technologies, including Jira, Angular 14, 12, 10, JavaScript, HTML, CSS, and more. My role revolves around crafting user-friendly interfaces and seamless experiences for TATAAIG's customers.</li><li>&nbsp;Using Angular, I develop scalable and maintainable front-end applications that align with the best practices and industry standards. I have extensive experience with Angular versions 14, 12, and 10, enabling me to leverage the latest features and enhancements for an enhanced user experience.</li><li>Additionally, I have experience in integrating APIs from backend services, ensuring seamless communication between the front-end and back-end systems. I am well-versed in working with API wrappers and possess a comprehensive understanding of RESTful architecture.</li><li>My experience with Jira allows me to effectively manage project tasks, track progress, and communicate with team members and stakeholders. I am skilled at utilizing Jira's features to streamline development processes and ensure timely project delivery.</li></ul>",
+                        "presentValue": "present"
+                    },
+                    {
+                        "city": "Jabalpur",
+                        "note": "",
+                        "uuid": "ca36ffac-52d3-43b6-9827-6dc5fb29579b",
+                        "degree": "",
+                        "company": "White Force Outsourcing Private Limited",
+                        "country": "India ",
+                        "current": false,
+                        "endDate": [
+                            "01",
+                            "2023"
+                        ],
+                        "jobTitle": "Frontend Developer / Ionic Developer",
+                        "startDate": [
+                            "06",
+                            "2021"
+                        ],
+                        "description": "<ul><li>Developed a reactive form in Angular 13, ensuring seamless data input validation and enhancing user experience.</li><li>&nbsp;﻿Integrated APIs using GET and POST methods to fetch and submit data, improving data exchange between the front-end and back-end systems.</li><li>&nbsp;Utilized promises and observables in Angular to manage asynchronous operations efficiently and enhance application performance.</li><li>&nbsp;Designed and developed a Job Searching app in Ionic, providing users with a seamless and intuitive job search experience.</li><li>&nbsp;Created a Resume Making app in Ionic, enabling users to generate professional resumes quickly and easily.</li><li>&nbsp;Developed an attendance app with geotracking and face recognition features, ensuring accurate and secure attendance management for employees.</li><li>&nbsp;Implemented a task management module within the attendance app, enabling users to create, assign, and track tasks effectively.</li><li>&nbsp;Collaborated with cross-functional teams including designers, backend developers, and quality assurance testers to ensure the seamless integration and delivery of high-quality applications.</li></ul><p>&nbsp;Conducted code reviews and provided constructive feedback to peers, promoting code quality and adherence to best practices.</p><p>&nbsp;Stayed up to date with the latest industry trends and technologies, actively seeking opportunities to enhance technical skills and knowledge.</p><p>&nbsp;Developed responsive and user-friendly web applications using Angular and React frameworks.</p>",
+                        "presentValue": "present"
+                    }
+                ]
+            },
+            "icon": "briefcase",
+            "name": "Work experience",
+            "type": "experience",
+            "uuid": "9beea751-edb3-4743-80ca-0952353a5aa8"
+        },
+        {
+            "data": {
+                "type": "education",
+                "entries": [
+                    {
+                        "city": "Mohali ",
+                        "note": null,
+                        "uuid": "0f0393ed-3d86-4181-b8b5-be50eec1035b",
+                        "degree": "Graduation",
+                        "company": "Chandigarh University",
+                        "country": "India",
+                        "current": true,
+                        "endDate": [
+                            "",
+                            ""
+                        ],
+                        "jobTitle": "BCA",
+                        "startDate": [
+                            "08",
+                            "2022"
+                        ],
+                        "description": "",
+                        "presentValue": "present"
+                    },
+                    {
+                        "city": "Jabalpur",
+                        "note": "",
+                        "uuid": "a62e56a6-4558-4787-bb9e-0efd96dcc8ae",
+                        "degree": "Diploma",
+                        "company": "Kalaniketan Polytechnic",
+                        "country": "India",
+                        "current": false,
+                        "endDate": [
+                            "01",
+                            "2022"
+                        ],
+                        "jobTitle": "Automobile Engineering",
+                        "startDate": [
+                            "09",
+                            "2018"
+                        ],
+                        "description": "",
+                        "presentValue": "present"
+                    }
+                ]
+            },
+            "icon": "school-new",
+            "name": "Education",
+            "type": "experience",
+            "uuid": "474e5886-505c-41d6-82d1-2c00ef5e1a02"
+        },
+        {
+            "data": [
+                {
+                    "name": "Technology",
+                    "note": null,
+                    "uuid": "065b16c6-70a0-4b21-942f-cb1026474153",
+                    "skills": [
+                        {
+                            "name": "HTML, CSS, Javascript",
+                            "uuid": "7e10ab1c-1b91-4bf1-928c-20debb6eac2d",
+                            "shown": "description",
+                            "skillLevel": 3,
+                            "description": "Professional"
+                        },
+                        {
+                            "name": " Angular, Reactjs, Ionic, React Native",
+                            "uuid": "156644b4-510b-4fd2-a404-c75f00191094",
+                            "shown": "description",
+                            "skillLevel": 3,
+                            "description": "Professional"
+                        }
+                    ]
+                },
+                {
+                    "name": "Other",
+                    "note": "",
+                    "uuid": "0ed849dd-1eb8-4448-ac43-af4db5d34c7a",
+                    "skills": [
+                        {
+                            "name": "Nodejs, ExpressJS, Jasmine, Jira, AWS Console",
+                            "uuid": "415b88d8-9022-4b81-9938-c3e5b50f017b",
+                            "shown": "description",
+                            "skillLevel": 2,
+                            "description": "Limited"
+                        },
+                        {
+                            "name": "Restful API, JSON, AJAX JQUERY, Tailwind, Bootstrap",
+                            "uuid": "425a1a32-6358-40ec-91bb-42c9c6601564",
+                            "shown": "description",
+                            "skillLevel": 3,
+                            "description": "Professional"
+                        }
+                    ]
+                }
+            ],
+            "icon": "lab-flask-experiment",
+            "name": "Skills",
+            "type": "skill",
+            "uuid": "33890494-ad27-4b46-bafc-2f87eff6a337"
+        }
+    ],
+    "settings": {
+        "name": "Tarun Gupta Resume Original ",
+        "color": "whi",
+        "format": 33,
+        "fontFace": "lit-lit",
+        "fontSize": "fs-13",
+        "template": "black",
+        "dateFormat": "dd/mm/yyyy",
+        "lineHeight": "lh-16",
+        "pageFormat": "a4",
+        "pageNumber": "",
+        "addressFormat": {
+            "order": [
+                [
+                    "name"
+                ],
+                [
+                    "address"
+                ],
+                [
+                    "city",
+                    "postal"
+                ],
+                [
+                    "country"
+                ]
+            ],
+            "delimiter": " "
+        }
+    },
+    "avatarUrl": "https://s3-eu-west-1.amazonaws.com/avatars-kickresume-com/user-avatars/1956123/9e18550ac92efcf3afd37f11f459ba0d.jpg",
+    "isWebsite": false,
+    "publishUrl": "",
+    "isProofread": false,
+    "isPublished": false,
+    "creationDate": "2023-06-06T19:35:06.297826+00:00",
+    "lastEditDate": "2023-11-14T19:09:02.443325+00:00",
+    "legacyPdfUrl": null,
+    "thumbnailUrl": null,
+    "isResignation": false,
+    "publishStatus": "unpublished",
+    "publishTemplate": "paper",
+    "isBeingProofread": false,
+    "isRendering": true
+}
