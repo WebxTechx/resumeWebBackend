@@ -1,0 +1,287 @@
+{
+    "cv": {
+        "avatarUrl": "https://s3-eu-west-1.amazonaws.com/avatars-kickresume-com/user-avatars/1956123/9e18550ac92efcf3afd37f11f459ba0d.jpg",
+        "creationDate": "2023-06-06T19:35:06.297826+00:00",
+        "id": 5613790,
+        "isBeingProofread": false,
+        "isProofread": false,
+        "isPublished": false,
+        "publishStatus": "unpublished",
+        "publishTemplate": "paper",
+        "publishUrl": "",
+        "thumbnailUrl": null,
+        "legacyPdfUrl": null,
+        "general": {
+            "name": "Personal Information",
+            "icon": "single-neutral-actions",
+            "avatarShown": false,
+            "frontTitle": "",
+            "firstNameKey": "First name",
+            "firstNameValue": "Tarun",
+            "lastNameKey": "Last name",
+            "lastNameValue": "Gupta",
+            "backTitle": "",
+            "addressKey": "Address",
+            "street": "Damohnaka",
+            "postal": "482001",
+            "city": "Jabalpur",
+            "country": "India",
+            "nationalityKey": "Nationality",
+            "nationality": "Indian",
+            "birthKey": "Date of birth",
+            "birthDate": "2001-09-05",
+            "emailKey": "Email address",
+            "emailValue": "tarungupta1405@gmail.com",
+            "phoneKey": "Phone number",
+            "phoneValue": "8120239387",
+            "websiteKey": "LinkedIn",
+            "websiteValue": "https://www.linkedin.com/in/tarun-gupta-345748227/",
+            "customFieldOneKey": "Custom field",
+            "customFieldOneValue": "",
+            "customFieldTwoKey": "Custom field",
+            "customFieldTwoValue": "",
+            "descriptionKey": "Profile",
+            "description": "<p>Highly skilled Frontend Developer with over 3 years of experience specializing in Angular and React/React Native. Proficient in developing scalable and responsive web and mobile applications. Possesses a strong understanding of front-end technologies and frameworks, including HTML, CSS, JavaScript, TypeScript, Angular, React, and React Native. Demonstrates a solid grasp of UI/UX principles and the ability to create intuitive user interfaces. Proven track record of delivering high-quality code on time and within budget. Excellent problem-solving skills and a keen eye for detail. Committed to staying updated with the latest industry trends and continuously improving technical skills. A team player with effective communication and collaboration abilities.</p>",
+            "note": null
+        },
+        "settings": {
+            "name": "Tarun Gupta Resume Original ",
+            "color": "whi",
+            "template": "black",
+            "format": 33,
+            "fontFace": "lit-lit",
+            "fontSize": "fs-13",
+            "pageFormat": "a4",
+            "dateFormat": "dd/mm/yyyy",
+            "lineHeight": "lh-16",
+            "addressFormat": {
+                "order": [
+                    [
+                        "name"
+                    ],
+                    [
+                        "address"
+                    ],
+                    [
+                        "city",
+                        "postal"
+                    ],
+                    [
+                        "country"
+                    ]
+                ],
+                "delimiter": " "
+            },
+            "pageNumber": ""
+        },
+        "isCover": false,
+        "isResume": true,
+        "isWebsite": false,
+        "isResignation": false,
+        "sections": [
+            {
+                "icon": "briefcase",
+                "name": "Work experience",
+                "uuid": "9beea751-edb3-4743-80ca-0952353a5aa8",
+                "type": "experience",
+                "data": {
+                    "entries": [
+                        {
+                            "city": "Gurgaon ",
+                            "country": "India",
+                            "company": "Ernst and Young",
+                            "degree": "",
+                            "current": false,
+                            "description": "<p>&nbsp;&nbsp;&nbsp;</p><ul><li>﻿As a Frontend Developer at Ernst and Young, I am part of a dynamic team responsible for delivering cutting-edge solutions for our esteemed client, TATAAIG. I specialize in leveraging a wide range of technologies, including Jira, Angular 14, 12, 10, JavaScript, HTML, CSS, and more. My role revolves around crafting user-friendly interfaces and seamless experiences for TATAAIG's customers.</li><li>&nbsp;Using Angular, I develop scalable and maintainable front-end applications that align with the best practices and industry standards. I have extensive experience with Angular versions 14, 12, and 10, enabling me to leverage the latest features and enhancements for an enhanced user experience.</li><li>Additionally, I have experience in integrating APIs from backend services, ensuring seamless communication between the front-end and back-end systems. I am well-versed in working with API wrappers and possess a comprehensive understanding of RESTful architecture.</li><li>My experience with Jira allows me to effectively manage project tasks, track progress, and communicate with team members and stakeholders. I am skilled at utilizing Jira's features to streamline development processes and ensure timely project delivery.</li></ul>",
+                            "endDate": [
+                                "",
+                                ""
+                            ],
+                            "jobTitle": "Frontend Developer / Analyst",
+                            "startDate": [
+                                "01",
+                                "2023"
+                            ],
+                            "presentValue": "present",
+                            "uuid": "35b85e4a-3f5c-4d96-a879-dececd85c94b",
+                            "note": null
+                        },
+                        {
+                            "city": "Jabalpur",
+                            "country": "India ",
+                            "company": "White Force Outsourcing Private Limited",
+                            "degree": "",
+                            "current": false,
+                            "description": "<ul><li>Developed a reactive form in Angular 13, ensuring seamless data input validation and enhancing user experience.</li><li>&nbsp;﻿Integrated APIs using GET and POST methods to fetch and submit data, improving data exchange between the front-end and back-end systems.</li><li>&nbsp;Utilized promises and observables in Angular to manage asynchronous operations efficiently and enhance application performance.</li><li>&nbsp;Designed and developed a Job Searching app in Ionic, providing users with a seamless and intuitive job search experience.</li><li>&nbsp;Created a Resume Making app in Ionic, enabling users to generate professional resumes quickly and easily.</li><li>&nbsp;Developed an attendance app with geotracking and face recognition features, ensuring accurate and secure attendance management for employees.</li><li>&nbsp;Implemented a task management module within the attendance app, enabling users to create, assign, and track tasks effectively.</li><li>&nbsp;Collaborated with cross-functional teams including designers, backend developers, and quality assurance testers to ensure the seamless integration and delivery of high-quality applications.</li></ul><p>&nbsp;Conducted code reviews and provided constructive feedback to peers, promoting code quality and adherence to best practices.</p><p>&nbsp;Stayed up to date with the latest industry trends and technologies, actively seeking opportunities to enhance technical skills and knowledge.</p><p>&nbsp;Developed responsive and user-friendly web applications using Angular and React frameworks.</p>",
+                            "endDate": [
+                                "01",
+                                "2023"
+                            ],
+                            "jobTitle": "Frontend Developer / Ionic Developer",
+                            "startDate": [
+                                "06",
+                                "2021"
+                            ],
+                            "presentValue": "present",
+                            "uuid": "ca36ffac-52d3-43b6-9827-6dc5fb29579b",
+                            "note": ""
+                        }
+                    ],
+                    "type": "work"
+                }
+            },
+            {
+                "icon": "school-new",
+                "name": "Education",
+                "uuid": "474e5886-505c-41d6-82d1-2c00ef5e1a02",
+                "type": "experience",
+                "data": {
+                    "entries": [
+                        {
+                            "city": "Mohali ",
+                            "country": "India",
+                            "company": "Chandigarh University",
+                            "degree": "Graduation",
+                            "current": true,
+                            "description": "",
+                            "endDate": [
+                                "",
+                                ""
+                            ],
+                            "jobTitle": "BCA",
+                            "startDate": [
+                                "08",
+                                "2022"
+                            ],
+                            "presentValue": "present",
+                            "uuid": "0f0393ed-3d86-4181-b8b5-be50eec1035b",
+                            "note": null
+                        },
+                        {
+                            "city": "Jabalpur",
+                            "country": "India",
+                            "company": "Kalaniketan Polytechnic",
+                            "degree": "Diploma",
+                            "current": false,
+                            "description": "",
+                            "endDate": [
+                                "01",
+                                "2022"
+                            ],
+                            "jobTitle": "Automobile Engineering",
+                            "startDate": [
+                                "09",
+                                "2018"
+                            ],
+                            "presentValue": "present",
+                            "uuid": "a62e56a6-4558-4787-bb9e-0efd96dcc8ae",
+                            "note": ""
+                        }
+                    ],
+                    "type": "education"
+                }
+            },
+            {
+                "icon": "lab-flask-experiment",
+                "name": "Skills",
+                "uuid": "33890494-ad27-4b46-bafc-2f87eff6a337",
+                "type": "skill",
+                "data": [
+                    {
+                        "name": "Technology",
+                        "skills": [
+                            {
+                                "name": "HTML, CSS, Javascript",
+                                "shown": "description",
+                                "skillLevel": 3,
+                                "description": "Professional",
+                                "uuid": "7e10ab1c-1b91-4bf1-928c-20debb6eac2d"
+                            },
+                            {
+                                "name": " Angular, Reactjs, Ionic, React Native",
+                                "shown": "description",
+                                "skillLevel": 3,
+                                "description": "Professional",
+                                "uuid": "156644b4-510b-4fd2-a404-c75f00191094"
+                            }
+                        ],
+                        "uuid": "065b16c6-70a0-4b21-942f-cb1026474153",
+                        "note": null
+                    },
+                    {
+                        "name": "Other",
+                        "skills": [
+                            {
+                                "name": "Nodejs, ExpressJS, Jasmine, Jira, AWS Console",
+                                "shown": "description",
+                                "skillLevel": 2,
+                                "description": "Limited",
+                                "uuid": "415b88d8-9022-4b81-9938-c3e5b50f017b"
+                            },
+                            {
+                                "name": "Restful API, JSON, AJAX JQUERY, Tailwind, Bootstrap",
+                                "shown": "description",
+                                "skillLevel": 3,
+                                "description": "Professional",
+                                "uuid": "425a1a32-6358-40ec-91bb-42c9c6601564"
+                            }
+                        ],
+                        "uuid": "0ed849dd-1eb8-4448-ac43-af4db5d34c7a",
+                        "note": ""
+                    }
+                ]
+            },
+            {
+                "icon": "certified-ribbon-2",
+                "name": "Certificates",
+                "uuid": "848a99ce-fb1d-4f07-b76c-4552e9986f75",
+                "type": "publication",
+                "data": {
+                    "entries": [
+                        {
+                            "name": "sample",
+                            "publisher": "white",
+                            "date": [
+                                "01",
+                                "2022"
+                            ],
+                            "description": "<p>blac bla</p>",
+                            "url": "whiteforc",
+                            "uuid": "e19d79b7-cb6c-46bd-99ce-b1f57d236f89",
+                            "note": ""
+                        }
+                    ],
+                    "type": "certification"
+                }
+            },
+            {
+                "icon": "face-id-4",
+                "name": "Social Media",
+                "uuid": "de6e0ad1-08e6-49ee-bfb6-a9cede46b83b",
+                "type": "social",
+                "data": {
+                    "entries": [
+                        {
+                            "icon": "professional-network-linkedin",
+                            "name": "",
+                            "url": "Linked",
+                            "uuid": "9afc0193-1bd0-4ea0-8376-c38b16c4b0fe",
+                            "description": "kadmksdm"
+                        },
+                        {
+                            "icon": "social-media-facebook-1",
+                            "name": "",
+                            "url": "facebook",
+                            "uuid": "ef809a32-5e24-4bc2-82bb-d8e23dabdd44",
+                            "description": "faceesdfsfdsdf"
+                        }
+                    ]
+                },
+                "settings": {
+                    "align": "sec-al-left"
+                },
+                "note": ""
+            }
+        ]
+    }
+}
