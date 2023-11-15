@@ -64,10 +64,12 @@ const userSchema = new Schema(
             type: Boolean
         },
         is_superuser: {
-            type: Boolean
+            type: Boolean,
+            default: false,
         },
         first_login: {
-            type: Boolean
+            type: Boolean,
+            default: true,
         },
         refreshToken: {
             type: String
