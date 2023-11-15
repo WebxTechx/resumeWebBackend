@@ -1,18 +1,11 @@
 import mongoose, {Schema} from "mongoose";
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
+import { generateUUID } from "../utils/uuidHander";
 
 const userSchema = new Schema(
     {
-        username: {
-            type: String,
-            required: true,
-            unique: true,
-            lowecase: true,
-            trim: true, 
-            index: true
-        },
-        email: {
+        email:  {
             type: String,
             required: true,
             unique: true,
@@ -25,27 +18,70 @@ const userSchema = new Schema(
             trim: true, 
             index: true
         },
-        avatar: {
-            type: String, // cloudinary url
+        first_name: {
+            type: String,
             required: true,
+            trim: true, 
+            index: true
         },
-        coverImage: {
-            type: String, // cloudinary url
+        last_name: {
+            type: String,
+            required: true,
+            trim: true, 
+            index: true
         },
-        watchHistory: [
-            {
-                type: Schema.Types.ObjectId,
-                ref: "Video"
-            }
-        ],
+        date_joined: {
+            type: Date,
+            default: Date.now
+        },
+        resume_count: {
+            type: Number
+        },
+        cover_letter_count: {
+            type: Number
+        },
+        web_site_count: {
+            type: Number
+        },
+        confirmed_privacy_policy: {
+            type: Boolean
+        },
+        uuid: {
+            type: String,
+            default: generateUUID,
+            unique: true
+        },
+        enable_notification: {
+            type: Boolean
+        },
+        data_sharing: {
+            type: Boolean
+        },
+        confirmed_marketing_emails: {
+            type: Boolean
+        },
+        confirmed_joboffer_emails: {
+            type: Boolean
+        },
+        is_superuser: {
+            type: Boolean
+        },
+        first_login: {
+            type: Boolean
+        },
+        refreshToken: {
+            type: String
+        },
         password: {
             type: String,
             required: [true, 'Password is required']
         },
-        refreshToken: {
-            type: String
-        }
-
+        // CV reference
+        cv: {
+            type: Schema.Types.ObjectId,
+            ref: 'CV'
+        },
+        
     },
     {
         timestamps: true
@@ -68,7 +104,6 @@ userSchema.methods.generateAccessToken = function(){
         {
             _id: this._id,
             email: this.email,
-            username: this.username,
             fullName: this.fullName
         },
         process.env.ACCESS_TOKEN_SECRET,
