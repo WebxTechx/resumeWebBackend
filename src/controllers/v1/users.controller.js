@@ -85,12 +85,12 @@ const loginUser = async (req, res) => {
       _id: user._id,
       email: user.email,
       uuid: user.uuid,
+      token: await user.generateAccessToken(),
     };
 
     if (user && (await user.isPasswordCorrect(password))) {
       return res
         .status(200)
-        .header("Authorization", `Bearer ${await user.generateAccessToken()}`)
         .json(
           new ApiResponse(200, sanitizedUser, "User loggedin successfully")
         );

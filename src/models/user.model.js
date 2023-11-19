@@ -106,7 +106,23 @@ userSchema.methods.generateAccessToken = function(){
         {
             _id: this._id,
             email: this.email,
-            fullName: this.fullName
+            fullName: this.fullName,
+            first_name: this.first_name,
+            last_name: this.last_name,
+            date_joined: this.date_joined,
+            resume_count: this.resume_count,
+            cover_letter_count: this.cover_letter_count,
+            web_site_count: this.web_site_count,
+            confirmed_privacy_policy:this.confirmed_privacy_policy,
+            enable_notification: this.enable_notification,
+            data_sharing: this.data_sharing,
+            confirmed_marketing_emails: this.confirmed_marketing_emails,
+            confirmed_joboffer_emails: this.confirmed_joboffer_emails,
+            is_superuser: this.is_superuser,
+            first_login: this.first_login,
+            refreshToken: this.refreshToken,
+            // CV reference
+            cv: this.cv,
         },
         process.env.ACCESS_TOKEN_SECRET,
         {
