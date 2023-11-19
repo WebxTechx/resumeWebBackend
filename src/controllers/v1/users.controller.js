@@ -7,7 +7,9 @@ const getUsers = async (req, res) => {
   try {
     const users = await User.find(); // Fetch all users from the database
 
-    res.status(200).json(users);
+    res
+      .status(200)
+      .json(new ApiResponse(200, users, "Users fetched successfully"));
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Internal Server Error" });
@@ -21,7 +23,9 @@ const createUser = async (req, res) => {
   try {
     // Validate input
     if (!fullName || !email || !first_name || !last_name || !password) {
-      return res.status(200).json({ error: "fullName and email are required" });
+      return res
+        .status(200)
+        .json(new ApiResponse(200, "", "fullName and email are required"));
     }
 
     // Check if the user with the same email already exists
@@ -55,7 +59,6 @@ const createUser = async (req, res) => {
     });
   }
 };
-
 
 // User Login
 const loginUser = async (req, res) => {
