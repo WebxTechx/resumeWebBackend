@@ -34,8 +34,8 @@ const userSchema = new Schema(
       type: String,
     },
     coverImg: {
-        type: String,
-      },
+      type: String,
+    },
     date_joined: {
       type: Date,
       default: Date.now,
