@@ -1,1 +1,1 @@
-export const DB_NAME = "resumeBack"
+export const DB_NAME = "resumeBack";
