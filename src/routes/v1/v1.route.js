@@ -6,11 +6,12 @@ import {
   createUser,
   loginUser,
 } from "../../controllers/v1/users.controller.js";
-const v1Routes = express.Router();
+const router = express.Router();
 
 // Define v1 routes
-v1Routes.get("/users", checkTokenMiddleware, checkIsAdmin, getUsers);
-v1Routes.post("/users", createUser);
-v1Routes.post("/users/login", loginUser);
+router.get("/users", checkTokenMiddleware, checkIsAdmin, getUsers);
+router.post("/users", createUser);
+// router.post("/users/login", loginUser);
+router.route("/users/login").post(loginUser);
 
-export { v1Routes };
+export default router;
